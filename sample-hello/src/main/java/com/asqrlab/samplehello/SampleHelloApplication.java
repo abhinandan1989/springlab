@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableAutoConfiguration
 public class SampleHelloApplication {
 
-    @RequestMapping("/")
+    @RequestMapping("/home")
     public String homepage() {
         return "<h1>Hello World Spring Boot! @abhi</h1>";
     }
