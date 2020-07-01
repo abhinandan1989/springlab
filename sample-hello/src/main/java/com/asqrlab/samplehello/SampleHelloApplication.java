@@ -14,6 +14,7 @@ public class SampleHelloApplication {
         return "<h1>Hello World Spring Boot! @abhi</h1>";
     }
 	public static void main(String[] args) {
+		System.out.println("Hello Demo");
 		SpringApplication.run(SampleHelloApplication.class, args);
 	}
 
